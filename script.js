@@ -178,7 +178,7 @@ const toggle = document.getElementById("theme-toggle");
 toggle.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 });
-const scriptURL = "https://script.google.com/macros/s/AKfycbzBrp3TItY3nk002OgyRppu-1gDXuPa1tv6ir0SOEo2-odk_X8G78zzrWhsSEsZSTSD6g/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbymUfLa6vwkyFVHzEZ_zf2K6hCOyTDNgua_Y_S3uDGShpEy2efjvbFtqcWyN5_4Qs36mw/exec";
 
 const form = document.getElementById("volunteerForm");
 
