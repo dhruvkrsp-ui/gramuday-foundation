@@ -146,9 +146,9 @@ lightbox.addEventListener("click", (e) => {
         lightbox.style.display = "none";
     }
 });
-const counters = document.querySelectorAll(".count");
+const statcounters = document.querySelectorAll(".count");
 
-counters.forEach(counter => {
+statcounters.forEach(counter => {
     const target = +counter.getAttribute("data-target");
     let count = 0;
 
